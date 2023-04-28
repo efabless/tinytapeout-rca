@@ -7,6 +7,7 @@ cp -r ../tinytapeout-03/tt .
 cp -r ../tinytapeout-03/config.yaml .
 cp -r ../tinytapeout-03/verilog/rtl/scanchain/ verilog/rtl/
 cp -r ../tinytapeout-03/verilog/rtl/scan_controller/ verilog/rtl/
+cp -r ../tinytapeout-03/verilog/rtl/fast verilog/rtl/
 cp -r ../tinytapeout-03/openlane/scan_controller/ openlane/
 cp -r ../tinytapeout-03/openlane/scanchain/ openlane/
 cp -r ../tinytapeout-03/pre_build.sh .
