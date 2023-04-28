@@ -28,6 +28,7 @@ cp ../tinytapeout-03/openlane/user_project_wrapper/pdn_cfg.tcl openlane/user_pro
 cp ../tinytapeout-03/sta_top/ -r .
 cp ../tinytapeout-03/stadocker.sh .
 cp ../tinytapeout-03/.gitignore  .
+cp ../tinytapeout-03/test_projects.yaml .
 
 # remove unwanted files
 git rm -r verilog/dv/la_test1
@@ -66,7 +67,7 @@ git add def/scan_controller.def  openlane/scan_controller/config.tcl
 git add openlane/scan_controller/base.sdc 
 git add openlane/user_project_wrapper/pdn_cfg.tcl
 git add openlane/scanchain/config.tcl openlane/scanchain/base.sdc 
-git add pics/ extra_projects.yaml projects.yaml config.yaml
+git add pics/ extra_projects.yaml projects.yaml config.yaml test_projects.yaml
 git add pre_build.sh post_build.sh sta_top/ projects.yaml  stadocker.sh 
 git add verilog/blackbox_project_includes.v 
 git add verilog/dv/scan_controller/ verilog/dv/scan_controller_ext/ verilog/dv/scan_controller_int/ verilog/dv/scan_controller_la/
