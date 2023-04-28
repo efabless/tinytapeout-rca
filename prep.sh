@@ -2,6 +2,9 @@
 git clone https://github.com/efabless/caravel_user_project tinytapeout_rca
 cd tinytapeout_rca/
 
+# tt tools
+git clone git@github.com:TinyTapeout/tt-support-tools.git -b submission-tools
+
 # copy tt03 files
 cp -r ../tinytapeout-03/tt .
 cp -r ../tinytapeout-03/config.yaml .
