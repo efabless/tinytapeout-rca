@@ -8,12 +8,12 @@ cp -r ../tinytapeout-03/config.yaml .
 cp -r ../tinytapeout-03/verilog/rtl/scanchain/ verilog/rtl/
 cp -r ../tinytapeout-03/verilog/rtl/scan_controller/ verilog/rtl/
 cp -r ../tinytapeout-03/verilog/rtl/fast verilog/rtl/
+cp -r ../tinytapeout-03/verilog/dv/* verilog/dv/
 cp -r ../tinytapeout-03/openlane/scan_controller/ openlane/
 cp -r ../tinytapeout-03/openlane/scanchain/ openlane/
 cp -r ../tinytapeout-03/pre_build.sh .
 cp -r ../tinytapeout-03/post_build.sh 
 cp -r ../tinytapeout-03/setuptokens.sh .
-cp -r ../tinytapeout-03/verilog/dv/* verilog/dv/
 cp -r ../tinytapeout-03/.github/workflows/* .github/workflows/
 cp -r ../tinytapeout-03/pics/ 
 cp ../tinytapeout-03/gds/scanchain.gds.gz gds
@@ -30,6 +30,7 @@ cp ../tinytapeout-03/sta_top/ -r .
 cp ../tinytapeout-03/stadocker.sh .
 cp ../tinytapeout-03/.gitignore  .
 cp ../tinytapeout-03/test_projects.yaml .
+cp ../tinytapeout-03/verilog/rtl/user_defines.v verilog/rtl/
 
 cp tt/docs/INFO.md .
 cp tt/docs/VERIFICATION.md .
