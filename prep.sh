@@ -30,6 +30,11 @@ cp ../tinytapeout-03/stadocker.sh .
 cp ../tinytapeout-03/.gitignore  .
 cp ../tinytapeout-03/test_projects.yaml .
 
+cp tt/docs/INFO.md .
+cp tt/docs/VERIFICATION.md .
+cp tt/docs/STA.md .
+cp tt/docs/CREDITS.md .
+
 # remove unwanted files
 git rm -r verilog/dv/la_test1
 git rm -r verilog/dv/la_test2
@@ -74,7 +79,10 @@ git add verilog/dv/scan_controller/ verilog/dv/scan_controller_ext/ verilog/dv/s
 git add .github/
 git add datasheet.pdf 
 git add openlane/scanchain/pin_order.cfg
+git add INFO.md VERIFICATION.md STA.md CREDITS.md
 git add -u .
 
 # commit
 git commit -m 'add all RCA designs'
+
+# setup GitHub repo with the token (see INFO.md)
