@@ -94,3 +94,6 @@ git commit -m 'add all RCA designs'
 
 # setup GitHub repo with the token (see INFO.md)
 # settings -> secrets & variables -> actions -> new repository secret for both GH_USERNAME and GH_TOKEN
+
+# need to update the verification and gl_verification workflow files in .github/workflow
+# change the paths in the env variables on line 12 -> 17 to match the name of the GH repo.
