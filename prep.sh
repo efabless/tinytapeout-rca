@@ -86,3 +86,4 @@ git add -u .
 git commit -m 'add all RCA designs'
 
 # setup GitHub repo with the token (see INFO.md)
+# settings -> secrets & variables -> actions -> new repository secret for both GH_USERNAME and GH_TOKEN
