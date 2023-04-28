@@ -1,8 +1,48 @@
-/.idea/
+# secrets
+git_url_to_email.json
+setuptokens.sh
+
+# intermediate results
+datasheet.md
 /precheck_results/
+
+# uncompressed gds
+gds/*gds
+
+# sim files
+/.idea/
 */tmp
 */*/tmp
 *.hex*
 *.lst
 *.vcd
-*.gtkw
+*.fst
+results.xml
+sim_build*
+__pycache__
+
+# formal verification intermediate
+scan_mux
+
+# sta intermediate files
+verilog/gl/all_sta.tcl
+verilog/gl/merged_user_project_wrapper.v
+verilog/gl/sta.sh
+verilog/gl/user_project_wrapper.v_edited
+spef/user_project_wrapper.tcl
+
+# projects
+projects/
+test_projects/
+
+# don't care
+sdc/
+sdf/
+sky130A.lyt
+sky130A.magicrc
+sta.log
+tt/
+venv
+.DS_Store
+caravel/
+mgmt_core_wrapper

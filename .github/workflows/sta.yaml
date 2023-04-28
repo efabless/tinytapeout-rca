@@ -1,0 +1,50 @@
+name: sta
+# either manually started, or on a schedule
+on: [ push, workflow_dispatch, pull_request ]
+jobs:
+  sta:
+    env:
+        OPENLANE_ROOT:  /home/runner/openlane
+        PDK_ROOT:       /home/runner/pdk
+        PDK:            sky130A
+    # ubuntu
+    runs-on: ubuntu-latest
+    steps:
+    # need the repo checked out
+    - name: checkout repo
+      uses: actions/checkout@v3
+
+    # build pdk - have to move this back above to get caravel makefile
+    - name: pdk & openlane
+      run: make setup
+
+    # need python
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+    - run: pip install verilog-parser
+
+    # setup sta script
+    - name: setup sta
+      run: python ./sta_top/toplevel_sta.py ./verilog/gl/user_project_wrapper.v ./spef/user_project_wrapper.spef sta_top/top.sdc
+
+    # run sta, create sta.log
+    - name: run sta
+      run: ./stadocker.sh
+
+    # test
+    - name: test sta
+      if: success() || failure()
+      run: |
+        # ignore Harald's weird STA issues
+        grep -v hpretl sta.log > sta.log.2
+        ! grep VIOLATED sta.log.2
+
+    - name: upload logs
+      if: success() || failure()
+      uses: actions/upload-artifact@v3
+      with:
+        name: STA
+        path: sta.log

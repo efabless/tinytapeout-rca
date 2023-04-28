@@ -1,5 +1,15 @@
-# Caravel user project includes
--v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
-
- 
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+-v $(USER_PROJECT_VERILOG)/rtl/scan_controller/scan_controller.v
+-v $(USER_PROJECT_VERILOG)/rtl/scanchain/scanchain.v
+-v $(USER_PROJECT_VERILOG)/rtl/cells.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361728533238569985.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361088881055404033.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361088812700822529.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361088803642172417.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_359117498298719233.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361721071853260801.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_363170982149101569.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_363170940975709185.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_362989425382889473.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_361088738149159937.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_module_356598821615835137.v
