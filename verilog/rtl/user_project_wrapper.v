@@ -356,7 +356,7 @@ module user_project_wrapper #(
         .io_out (sw_010_module_data_out)
     );
 
-    // [011] https://github.com/TinyTapeout/tt03-test-invert
+    // [011] https://github.com/fiumad/RCA-Traffic-Light
     wire sw_011_clk_out, sw_011_data_out, sw_011_scan_out, sw_011_latch_out;
     wire [7:0] sw_011_module_data_in;
     wire [7:0] sw_011_module_data_out;
@@ -373,7 +373,7 @@ module user_project_wrapper #(
         .module_data_out (sw_011_module_data_out)
     );
 
-    user_module_361728533238569985 user_module_361728533238569985_011 (
+    user_module_363176375876859905 user_module_363176375876859905_011 (
         .io_in  (sw_011_module_data_in),
         .io_out (sw_011_module_data_out)
     );
