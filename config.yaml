@@ -1,5 +1,5 @@
-name: 'tt_rca' # used for university orders & docs
-start_date: '2023-04-28'
+name: 'tt_rca2' # used for university orders & docs
+start_date: '2023-06-01'
 
 filler_project: https://github.com/TinyTapeout/tt03-test-invert # used by Orders when updating list of real projects
 extra_projects: extra_projects.yaml

@@ -1,9 +1,9 @@
-[![tinytapeout](https://github.com/efabless/tinytapeout-rca/actions/workflows/gds.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/gds.yaml)
-[![verification](https://github.com/efabless/tinytapeout-rca/actions/workflows/verification.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/verification.yaml)
-[![tt_datasheet](https://github.com/efabless/tinytapeout-rca/actions/workflows/tt_datasheet.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/tt_datasheet.yaml)
-[![gl_verification](https://github.com/efabless/tinytapeout-rca/actions/workflows/gl_verification.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/gl_verification.yaml)
-[![formal](https://github.com/efabless/tinytapeout-rca/actions/workflows/formal.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/formal.yaml)
-[![sta](https://github.com/efabless/tinytapeout-rca/actions/workflows/sta.yaml/badge.svg)](https://github.com/efabless/tinytapeout-rca/actions/workflows/sta.yaml)
+[![tinytapeout](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/gds.yaml/badge.svg)](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/gds.yaml)
+[![verification](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/verification.yaml/badge.svg)](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/verification.yaml)
+[![tt_datasheet](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/tt_datasheet.yaml/badge.svg)](https://github.com/tinytapeout/tinytapeout-03/actions/workflows/tt_datasheet.yaml)
+[![gl_verification](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/gl_verification.yaml/badge.svg)](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/gl_verification.yaml)
+[![formal](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/formal.yaml/badge.svg)](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/formal.yaml)
+[![sta](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/sta.yaml/badge.svg)](https://github.com/TinyTapeout/tinytapeout-03/actions/workflows/sta.yaml)
 
 # TinyTapeout 03
 
@@ -37,3 +37,4 @@ For the most recent automatic build, click the tt_datasheet badge above, then do
 | 9 | Laura Holmes | Not A Or B | [Wokwi](https://wokwi.com/projects/361088738149159937) | https://github.com/ldholmes2000/Not-A-Or-B |
 | 10 | Dan Fiumara | Simple Elevator Circuit | [Wokwi](https://wokwi.com/projects/356598821615835137) | https://github.com/fiumad/Tiny-Tapeout-Simple-Elevator |
 | 11 | Redemption Christian Academy | Traffic Light Circuit | [Wokwi](https://wokwi.com/projects/363176375876859905) | https://github.com/fiumad/RCA-Traffic-Light |
+| 12 | Redemption Christian Academy | 4 Bit Lock Circuit | [Wokwi](https://wokwi.com/projects/364627602320567297) | https://github.com/fiumad/RCA-Lock-Circuit |

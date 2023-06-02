@@ -69,7 +69,6 @@ make user_project_wrapper
 # compress gds and build images, pdf
 make compress
 ./tt/configure.py --update-image
-/tt/tt_annotate.py
 ./tt/tt_annotate.py
 ./tt/configure.py --dump-markdown datasheet.md --dump-pdf datasheet.pdf
 

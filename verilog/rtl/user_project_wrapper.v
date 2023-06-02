@@ -378,7 +378,7 @@ module user_project_wrapper #(
         .io_out (sw_011_module_data_out)
     );
 
-    // [012] https://github.com/TinyTapeout/tt03-test-invert
+    // [012] https://github.com/fiumad/RCA-Lock-Circuit
     wire sw_012_clk_out, sw_012_data_out, sw_012_scan_out, sw_012_latch_out;
     wire [7:0] sw_012_module_data_in;
     wire [7:0] sw_012_module_data_out;
@@ -395,7 +395,7 @@ module user_project_wrapper #(
         .module_data_out (sw_012_module_data_out)
     );
 
-    user_module_361728533238569985 user_module_361728533238569985_012 (
+    user_module_364627602320567297 user_module_364627602320567297_012 (
         .io_in  (sw_012_module_data_in),
         .io_out (sw_012_module_data_out)
     );
