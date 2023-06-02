@@ -32,7 +32,7 @@
         "scanchain_010 vccd1 vssd1 vccd1 vssd1,",
         "user_module_356598821615835137_010 vccd1 vssd1 vccd1 vssd1,",
         "scanchain_011 vccd1 vssd1 vccd1 vssd1,",
-        "user_module_361728533238569985_011 vccd1 vssd1 vccd1 vssd1,",
+        "user_module_363176375876859905_011 vccd1 vssd1 vccd1 vssd1,",
         "scanchain_012 vccd1 vssd1 vccd1 vssd1,",
         "user_module_361728533238569985_012 vccd1 vssd1 vccd1 vssd1,",
         "scanchain_013 vccd1 vssd1 vccd1 vssd1,",
@@ -531,7 +531,8 @@
         "dir::../../lef/user_module_363170940975709185.lef",
         "dir::../../lef/user_module_362989425382889473.lef",
         "dir::../../lef/user_module_361088738149159937.lef",
-        "dir::../../lef/user_module_356598821615835137.lef"
+        "dir::../../lef/user_module_356598821615835137.lef",
+        "dir::../../lef/user_module_363176375876859905.lef"
     ],
     "EXTRA_GDS_FILES": [
         "dir::../../gds/scan_controller.gds",
@@ -546,7 +547,8 @@
         "dir::../../gds/user_module_363170940975709185.gds",
         "dir::../../gds/user_module_362989425382889473.gds",
         "dir::../../gds/user_module_361088738149159937.gds",
-        "dir::../../gds/user_module_356598821615835137.gds"
+        "dir::../../gds/user_module_356598821615835137.gds",
+        "dir::../../gds/user_module_363176375876859905.gds"
     ],
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "RUN_KLAYOUT_XOR": 0,

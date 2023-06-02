@@ -36,3 +36,4 @@ For the most recent automatic build, click the tt_datasheet badge above, then do
 | 8 | Jesse Mugisha | Tiny Tapeout 3 Template Jesse | [Wokwi](https://wokwi.com/projects/362989425382889473) | https://github.com/RCAstudent10/A-not-B-and-C |
 | 9 | Laura Holmes | Not A Or B | [Wokwi](https://wokwi.com/projects/361088738149159937) | https://github.com/ldholmes2000/Not-A-Or-B |
 | 10 | Dan Fiumara | Simple Elevator Circuit | [Wokwi](https://wokwi.com/projects/356598821615835137) | https://github.com/fiumad/Tiny-Tapeout-Simple-Elevator |
+| 11 | Redemption Christian Academy | Traffic Light Circuit | [Wokwi](https://wokwi.com/projects/363176375876859905) | https://github.com/fiumad/RCA-Traffic-Light |

@@ -44,6 +44,12 @@
 + io_out[6] io_out[7] vccd1 vssd1
 .ends
 
+* Black-box entry subcircuit for user_module_363176375876859905 abstract view
+.subckt user_module_363176375876859905 io_in[0] io_in[1] io_in[2] io_in[3] io_in[4]
++ io_in[5] io_in[6] io_in[7] io_out[0] io_out[1] io_out[2] io_out[3] io_out[4] io_out[5]
++ io_out[6] io_out[7] vccd1 vssd1
+.ends
+
 * Black-box entry subcircuit for scan_controller abstract view
 .subckt scan_controller active_select[0] active_select[1] active_select[2] active_select[3]
 + active_select[4] active_select[5] active_select[6] active_select[7] active_select[8]
@@ -1431,12 +1437,6 @@ Xuser_module_361728533238569985_099 scanchain_099/module_data_in[0] scanchain_09
 + scanchain_099/module_data_out[0] scanchain_099/module_data_out[1] scanchain_099/module_data_out[2]
 + scanchain_099/module_data_out[3] scanchain_099/module_data_out[4] scanchain_099/module_data_out[5]
 + scanchain_099/module_data_out[6] scanchain_099/module_data_out[7] vccd1 vssd1 user_module_361728533238569985
-Xuser_module_361728533238569985_011 scanchain_011/module_data_in[0] scanchain_011/module_data_in[1]
-+ scanchain_011/module_data_in[2] scanchain_011/module_data_in[3] scanchain_011/module_data_in[4]
-+ scanchain_011/module_data_in[5] scanchain_011/module_data_in[6] scanchain_011/module_data_in[7]
-+ scanchain_011/module_data_out[0] scanchain_011/module_data_out[1] scanchain_011/module_data_out[2]
-+ scanchain_011/module_data_out[3] scanchain_011/module_data_out[4] scanchain_011/module_data_out[5]
-+ scanchain_011/module_data_out[6] scanchain_011/module_data_out[7] vccd1 vssd1 user_module_361728533238569985
 Xuser_module_361728533238569985_000 scanchain_000/module_data_in[0] scanchain_000/module_data_in[1]
 + scanchain_000/module_data_in[2] scanchain_000/module_data_in[3] scanchain_000/module_data_in[4]
 + scanchain_000/module_data_in[5] scanchain_000/module_data_in[6] scanchain_000/module_data_in[7]
@@ -2721,6 +2721,12 @@ Xscanchain_089 scanchain_089/clk_in scanchain_090/clk_in scanchain_089/data_in s
 + scanchain_089/module_data_out[2] scanchain_089/module_data_out[3] scanchain_089/module_data_out[4]
 + scanchain_089/module_data_out[5] scanchain_089/module_data_out[6] scanchain_089/module_data_out[7]
 + scanchain_089/scan_select_in scanchain_090/scan_select_in vccd1 vssd1 scanchain
+Xuser_module_363176375876859905_011 scanchain_011/module_data_in[0] scanchain_011/module_data_in[1]
++ scanchain_011/module_data_in[2] scanchain_011/module_data_in[3] scanchain_011/module_data_in[4]
++ scanchain_011/module_data_in[5] scanchain_011/module_data_in[6] scanchain_011/module_data_in[7]
++ scanchain_011/module_data_out[0] scanchain_011/module_data_out[1] scanchain_011/module_data_out[2]
++ scanchain_011/module_data_out[3] scanchain_011/module_data_out[4] scanchain_011/module_data_out[5]
++ scanchain_011/module_data_out[6] scanchain_011/module_data_out[7] vccd1 vssd1 user_module_363176375876859905
 Xscanchain_238 scanchain_238/clk_in scanchain_239/clk_in scanchain_238/data_in scanchain_239/data_in
 + scanchain_238/latch_enable_in scanchain_239/latch_enable_in scanchain_238/module_data_in[0]
 + scanchain_238/module_data_in[1] scanchain_238/module_data_in[2] scanchain_238/module_data_in[3]
